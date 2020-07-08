@@ -1,7 +1,6 @@
 main {
-    padding-top: 45px;
-    width: 70%;
-    text-align: center;
+    
+    width: 60%;
     margin: auto;
 }
 body {
@@ -10,4 +9,49 @@ body {
 
 footer {
     text-align: center;
+}
+
+header {
+    width: 93%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.lists {
+    display: flex;
+    padding-left: 10px;
+}
+
+.bakkal {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.stock {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.reflection {
+    text-align: center;
+    margin-top: 40px;
+}
+
+a {
+    color: royalblue;
+}
+
+@media only screen and (max-width: 481px) {
+    iframe {
+        width: 100%;
+        height: auto;    
+    }
+
+}
+
+@media only screen and (min-width: 482px) and (max-width: 820px) {
+    iframe {
+        width: 100%;
+        height: 315px;
+    }
 }
