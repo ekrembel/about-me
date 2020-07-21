@@ -16,13 +16,14 @@ footer {
 }
 
 header {
-    width: 93%;
+    width: 95%;
     padding-left: 15%;
     margin: auto;
 }
 .image {
     width: 50%;
     padding-top: 20px;
+    padding-left: 10%;
     float: right;
 }
 .lists {
@@ -54,7 +55,13 @@ a {
 .navbar {
     padding-left: 20%;
 }
+th {
+    padding-left: 38px;
+}
 
+td {
+    padding-left: 15px;
+}
 
 
 @media only screen and (max-width: 481px) {
