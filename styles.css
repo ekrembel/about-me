@@ -34,6 +34,11 @@ header {
     
 }
 
+.title {
+    float: right;
+    padding-right: 20%;
+}
+
 .bakkal {
     text-align: center;
     margin-top: 40px;
@@ -73,7 +78,7 @@ td {
         width: 85%;
     }
     header {
-        padding-left: 14%;
+        padding-left: 5%;
 
     }
     .lists {
@@ -85,6 +90,10 @@ td {
     }
     .navbar {
         padding-left: 5%;
+    }
+    .title {
+
+        visibility: hidden;
     }
 
 }
@@ -98,10 +107,14 @@ td {
         width: 75%;
     }
     header {
-        padding-left: 10%;
+        padding-left: 3%;
     }
     .navbar {
         padding-left: 3%;
+    }
+    .title {
+
+        padding-right: 7%;
     }
 }
 

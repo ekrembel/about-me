@@ -13,14 +13,13 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a style="font-size: 40px;" class="navbar-brand" href="index.html">Ekrem Bel</a>
+
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About me<span class="sr-only">(current)</span></a>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Projects
@@ -37,11 +36,12 @@
             <div class="header">
                 <div class="image">
                     <img src="images/square.jpg" alt="" width="250px" height="250px" style="float: left; border-radius: 50%;">
+                    
                 </div>
                 <div class="lists">
                     <ul>
                         <li><a href="#personal">Personal info</a></li>
-                        <li><a href="#objective">Objective</a></li>
+                        <li><a href="#objective">About</a></li>
                         <li><a href="#skillSummary">Skill Summary</a></li>
                         <li><a href="#techSkills">Tech Skills</a></li>
                         <li><a href="#education">Education</a></li>
@@ -53,26 +53,25 @@
                     </ul>
                 </div>
             </div>
+            <div class="title">
+                <h4 >Software Developer</h4>
+                <p style="padding-left: 50px;">St. Charles/MO</p>
+            </div>
         </header>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <main>
             <br><br>
-            <h2 id="personal">Software Developer <span style="float: right; font-size: large;">St. Louis/MO</span></h2>
+            <h2 id="personal">Personal Info</h2>
+            
             <hr>
             <p>Date of Birth: 01/01/1984 </p>
             <p>Civil Status: Married with 2 kids</p>
-            <div>
-                <a href="mailto:ekrem.bel1@gmail.com">Email</a> 
-            </div>
-            <div>
-                <a href="https://linkedin.com/in/ekrem-bel-5564bb1b3" target="_blank">LinkedIn</a>
-            </div>
-            <div>
-                <a href="https://github.com/ekrembel" target="_blank">GitHub</a>
-            </div>
-            
+            <a href="mailto:ekrem.bel1@gmail.com">Email</a> <br> <br>
+            <a href="https://linkedin.com/in/ekrem-bel-5564bb1b3" target="_blank">LinkedIn</a> <br> <br>
+            <a href="https://github.com/ekrembel" target="_blank">GitHub</a>
+                       
             <br><br><br>
-            <h2 id="objective">Objective</h2>
+            <h2 id="objective">About</h2>
             <hr>
             <p>Dreaming of a world with no problems while knowing that problems are what make us stronger and united. 
                 Enjoying pulling my hair out when trying to solve a problem. 
@@ -94,51 +93,77 @@
             <br><br>
             <h2 id="techSkills">Tech Skills</h2>
             <hr>
-            <table>
-                <tr>
-                    <th>Programing Languages</th>
-                    <th>Frameworks</th>
-                    <th>Database</th>
-                    <th>Tool/Knowledge</th>
-                </tr>
-                <tr>
-                    <td>
-                        <ul  style="padding-top: 15px;">
-                            <li>Python</li>
-                            <li>C</li>
-                            <li>C#</li>
-                            <li>JavaScript</li>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Flask</li>
-                            <li>Node.js</li>
-                            <li>ASP.NET</li>
-                            <li>Angular</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>SQLite</li>
-                            <li>MySQL</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Linux</li>
-                            <li>Git/Github</li> 
-                            <li>Bootstrap</li>
-                            <li>Agile Methodologies</li> 
-                            <li>Visual Studio</li> 
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-            
+            <div class="tables">
+                <div class="skill">
+                    <table>
+                        <tr>
+                            <th>Programing Languages</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>C</li>
+                                    <li>C#</li>
+                                    <li>JavaScript</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="skill">
+                    <table>
+                        <tr>
+                            <th>Frameworks</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Flask</li>
+                                    <li>Node.js</li>
+                                    <li>ASP.NET</li>
+                                    <li>Angular</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="skill">
+                    <table>
+                        <tr>
+                            <th>Database</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>SQLite</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="skill">
+                    <table>
+                        <tr>
+                            <th>Tool/Knowledge</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Linux</li>
+                                    <li>Git/Github</li> 
+                                    <li>Bootstrap</li>
+                                    <li>Agile Methodologies</li> 
+                                    <li>Visual Studio</li> 
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>            
             
             <br><br>
             <h2 id="education">Education</h2>
@@ -223,30 +248,23 @@
                     <td>
                         <ul>
                             <li>Technologies</li>
-                            <li>Problems</li>
                             <li>Data Science</li>
                             <li>Computers</li>
                             <li>Artificial Intelligence</li>
-                            
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
                             <li>Math</li>
                             <li>Science</li>
                             <li>Education</li>
-                            <li>Philosophy</li>
-                            <li>Religions</li>
-                            
                         </ul>
                     </td>
                     <td>
                         <ul>
+                            <li>Philosophy</li>
+                            <li>Religions</li>
                             <li>Languages</li>
                             <li>Cultures</li>
                             <li>Hiking</li>
                             <li>3-Cuision Billiards</li>
-                            <li>Tea</li>
+                            <li>Tea</li>                            
                         </ul>
                     </td>
                 </tr>
