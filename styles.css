@@ -68,6 +68,33 @@ td {
     padding-left: 15px;
 }
 
+.coin-text {
+    text-align: justify; 
+    width: 80%; 
+    margin: auto;
+}
+
+.coin-list {
+    text-align: left; 
+    width: 80%; 
+    margin: auto;  
+    padding-top: 25px;
+}
+
+.bakkal-text {
+    text-align: justify; 
+    width: 82%; 
+    margin: auto; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bakkal-list {
+    text-align: left; 
+    width: 77%; 
+    margin: auto;
+}
+
 
 @media only screen and (max-width: 481px) {
     iframe {
@@ -94,6 +121,18 @@ td {
     .title {
 
         visibility: hidden;
+    }
+    .bakkal-text {
+        width: 100%;
+    }
+    .bakkal-list {
+        width: 100%;
+    }
+    .coin-text {
+        width: 100%;
+    }
+    .coin-list {
+        width: 100%;
     }
 
 }
